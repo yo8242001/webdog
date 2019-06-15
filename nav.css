@@ -1,5 +1,8 @@
 * {
-    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border: 0.5px solid rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
 }
 .nav ul {
     float: right;
@@ -11,4 +14,15 @@
 }
 .nav .logo {
     font-size: 36px;
+}
+.nav .logo .big {
+    font-weight: 900;
+}
+.nav .logo .red, .nav ul li a.red {
+    color: indianred;
+}
+.nav a {
+    color: #757575;
+    text-decoration: none;
+    font-weight: 600;
 }
