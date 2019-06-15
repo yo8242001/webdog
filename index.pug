@@ -1,3 +1,11 @@
+mixin CreateBox(title, content, button, imgName)
+    .box
+        .content
+            h1=title
+            p=content
+            a(href="#")=button
+        .picture
+            img(src=imgName)
 <!DOCTYPE html>
 html(lang="zh")
     head
@@ -5,3 +13,4 @@ html(lang="zh")
         title DogLife.
     body
         include nav.pug
+         +CreateBox("標題", "內容", "按鈕", "dog1.jpg")
